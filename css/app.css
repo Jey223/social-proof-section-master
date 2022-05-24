@@ -57,6 +57,7 @@ body{
     padding: 2rem;
     text-align: center;
     position: relative;
+    margin: 0 auto;
 }
 
 .title{
@@ -204,7 +205,7 @@ body{
     }
 
     .container{
-        padding: 60px;
+        padding: 50px;
     }
     .desktop-cont{
         display: grid;
@@ -243,20 +244,20 @@ body{
         padding-left: 0px;
         width:1rem;
     }
-    .no2{
+    .rate:nth-child(2){
         font-size: 1rem;
         position: relative;
         right: 3rem;
     }
-    .no2 .rating{
-        font-size: 1.4rem;
+    .rate:nth-child(2) .rating{
+        font-size: 1.3rem;
     }
 
-    .no3{
+    .rate:nth-child(3){
         position: relative;
         right: 0;
     }
-    .no1{
+    .rate:nth-child(1){
         position: relative;
         right: 6rem;
     }
@@ -273,7 +274,7 @@ body{
         padding: 25px;
         position: relative;
     }
-    .prof2{
+    .profile:nth-child(2){
         top: 1rem;
     }
     .info-profile{
@@ -292,7 +293,7 @@ body{
         padding-top: 20px;
         font-size: 0.9rem;
     }
-    .prof3{
+    .profile:nth-child(3){
         margin-right: 0px;
         top: 2rem;
     }
@@ -320,7 +321,7 @@ body{
     .star img{
         width:1.5rem;
     }
-    .no1{
+    .rate:nth-child(1){
        margin-top: 3rem;
     }
     .information{
